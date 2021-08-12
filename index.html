@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
     <head>
         <meta charset="UTF-8">
         <title>Edited and re-created Google Homepage</title>
         <link rel="stylesheet" href="css/main.css">
     </head>
+
     <body>
-        <header>
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><img src="images/1.png"></a>
-            <a href="#">Sign In</a>
-        </header>
-        <main>
-            <center>
+        <div class="topbar">
+            <div class="topbar-left">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="topbar-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><img src="images/1.png" alt="Google Apps Access" width="15px" height="15px"></a>
+                <button class="sign-in" href="#">Sign In</button>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-                <br>
-                <p><form>search bar</form></p>
-            </center>
-        </main>
-        <footer>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Works</a>
-            <a href="#">Carbon neutral since 2007</a>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
-        </footer>
+            </div>
+            <div class="searchbar">
+                <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+                    <input name="sitesearch" type="hidden" value="example.com">
+                    <input autocomplete="on" class="form-control search" name="q" placeholder="" required="required"  type="text">
+                    <div class="buttons">
+                        <button class="search" type="submit">Search</button>
+                        <button class="lucky" type="submit">I'm Feeling Lucky</button>
+                    </div>
+                </form>
+            </div>          
+        </div>
+
+        <div class="up-footer">
+            Country
+        </div>
+
+        <div class="footer">
+            <div class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div class="footer-center">
+                <a href="#">Carbon neutral since 2007</a>
+            </div>
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+
     </body>
+
 </html>

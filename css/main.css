@@ -1,4 +1,35 @@
 html {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
   }
+
+body {
+    width: 99%;
+    height: 99%;
+    display: grid;
+    font-size: 14px;
+  }
+
+.topbar {
+    width: 100%;
+    height: 20px;
+    
+}
+
+
+.topbar-left {
+    float: left;
+}
+
+.topbar-right {
+    float: right;
+}
+.sign-in {
+    color: rgb(255, 255, 255); font-size: 14px; line-height: 14px; padding: 4px; border-radius: 0px; border-color: rgb(72, 133, 237); font-weight:bold; font-style:normal; font-variant: normal; text-transform: none; background-color: rgb(72, 133, 237); display: inline-block;
+}
+
+.main {
+    margin: 122px auto;
+}
+
