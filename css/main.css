@@ -1,10 +1,10 @@
-html body {
+html {
     background-color: white;
     font-family: arial,sans-serif;
     height: 100%;
     width: 100%;
   }
-
+  
 /* unvisited link */
 a:link {
     text-decoration:none;
@@ -29,11 +29,9 @@ a:active {
 
 
 .topbar {
-    color: #000;
     display:block;
     text-align: center;
     padding: 10px 10px;
-    text-decoration: none;
     font-size:14px;
     word-spacing: 10px;
 }
@@ -119,6 +117,22 @@ a:active {
     padding: 9px 19px;
   }
 
-.up-footer {
+.footer {
+    width: 100%;
+    display: block;
+    position:absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
     
+}
+
+.left-footer a:link {
+    color: grey;
+    float: left;
+    
+}
+
+.right-footer a:link {
+    color: grey;
+    float: right;
 }
