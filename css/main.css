@@ -47,13 +47,13 @@ a:active {
 
 .sign-in {
     background-color: #4885ed;
-  color: #fff;
-  border:none;
-  border-radius:3px;
-  padding:7px 10px;
-  position:relative;
-  bottom:7px;
-  font-weight:bold;
+    color: #fff;
+    border:none;
+    border-radius:3px;
+    padding:7px 10px;
+    position:relative;
+    bottom:7px;
+    font-weight:bold;
 }
 
 .main {
@@ -61,7 +61,7 @@ a:active {
 }
 
 .logo {
-    margin-top:100px;
+    margin-top:200px;
     margin-bottom:20px;
 }
 .bar{
@@ -118,21 +118,24 @@ a:active {
   }
 
 .footer {
+    text-align: center;
     width: 100%;
     display: block;
     position:absolute;
     bottom: 0;
     background-color: #f2f2f2;
-    
+
 }
 
 .left-footer a:link {
+    margin: 10px 10px;
     color: grey;
     float: left;
     
 }
 
 .right-footer a:link {
+    margin: 10px 10px;
     color: grey;
     float: right;
 }
